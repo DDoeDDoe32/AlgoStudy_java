@@ -7,8 +7,10 @@ public class Problem2839
         
         int number1 = input1.nextInt();
 
-        System.out.println("Hello world" + number1);
-
+        if (number1 >= 3 && number1 <= 5000)
+        {
+            System.out.println("Hello world" + number1);
+        }
         input1.close();
     }
 }
